@@ -3,8 +3,9 @@
 //  Image Tester
 //
 //  Created by Sujal Shah on 6/18/12.
-//  Copyright (c) 2012 Fanzter, Inc.. All rights reserved.
+//  
 //
+//  Public Domain via CC0 http://creativecommons.org/publicdomain/zero/1.0/
 
 #import <UIKit/UIKit.h>
 
