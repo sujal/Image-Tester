@@ -57,14 +57,14 @@
     
     switch (state%3) {
         case 1:
-            imageName = @"photo";
-            type = @"JPG";
+            imageName = @"regular";
+            type = @"jpg";
             label_text = @"Regular JPG";
             break;
         case 2:
-            imageName = @"green-ipad-wallpaper-x2";
+            imageName = @"progressive";
             type = @"jpg";
-            label_text = @"Progressive JPG";
+            label_text = @"Progressive jpg";
             break;
         case 0:
             imageName = @"full_loading";
