@@ -20,6 +20,11 @@
 		04A693711590233500D3136F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A693521590233400D3136F /* Foundation.framework */; };
 		04A693791590233500D3136F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04A693771590233500D3136F /* InfoPlist.strings */; };
 		04A6937C1590233500D3136F /* Image_TesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6937B1590233500D3136F /* Image_TesterTests.m */; };
+		04A6938715902BDD00D3136F /* green-ipad-wallpaper-x2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A6938515902BDD00D3136F /* green-ipad-wallpaper-x2.jpg */; };
+		04A6938815902BDD00D3136F /* photo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 04A6938615902BDD00D3136F /* photo.JPG */; };
+		04A6938B159033BC00D3136F /* full_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A69389159033BC00D3136F /* full_loading.png */; };
+		04A6938C159033BC00D3136F /* full_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A6938A159033BC00D3136F /* full_loading@2x.png */; };
+		04A6938E1590409D00D3136F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A6938D1590409D00D3136F /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +42,26 @@
 		04A693501590233400D3136F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04A693521590233400D3136F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04A693541590233500D3136F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		04A693581590233500D3136F /* Image Tester-Info.plist */ = {isa = PBXFileReference; path = "Image Tester-Info.plist"; sourceTree = "<group>"; };
+		04A693581590233500D3136F /* Image Tester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image Tester-Info.plist"; sourceTree = "<group>"; };
 		04A6935A1590233500D3136F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04A6935C1590233500D3136F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04A6935E1590233500D3136F /* Image Tester-Prefix.pch */ = {isa = PBXFileReference; path = "Image Tester-Prefix.pch"; sourceTree = "<group>"; };
-		04A6935F1590233500D3136F /* FZTAppDelegate.h */ = {isa = PBXFileReference; path = FZTAppDelegate.h; sourceTree = "<group>"; };
+		04A6935E1590233500D3136F /* Image Tester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Image Tester-Prefix.pch"; sourceTree = "<group>"; };
+		04A6935F1590233500D3136F /* FZTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZTAppDelegate.h; sourceTree = "<group>"; };
 		04A693601590233500D3136F /* FZTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZTAppDelegate.m; sourceTree = "<group>"; };
 		04A693631590233500D3136F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		04A693651590233500D3136F /* FZTViewController.h */ = {isa = PBXFileReference; path = FZTViewController.h; sourceTree = "<group>"; };
+		04A693651590233500D3136F /* FZTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZTViewController.h; sourceTree = "<group>"; };
 		04A693661590233500D3136F /* FZTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZTViewController.m; sourceTree = "<group>"; };
 		04A6936D1590233500D3136F /* Image TesterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image TesterTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A6936E1590233500D3136F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		04A693761590233500D3136F /* Image TesterTests-Info.plist */ = {isa = PBXFileReference; path = "Image TesterTests-Info.plist"; sourceTree = "<group>"; };
+		04A693761590233500D3136F /* Image TesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image TesterTests-Info.plist"; sourceTree = "<group>"; };
 		04A693781590233500D3136F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		04A6937A1590233500D3136F /* Image_TesterTests.h */ = {isa = PBXFileReference; path = Image_TesterTests.h; sourceTree = "<group>"; };
+		04A6937A1590233500D3136F /* Image_TesterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Image_TesterTests.h; sourceTree = "<group>"; };
 		04A6937B1590233500D3136F /* Image_TesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image_TesterTests.m; sourceTree = "<group>"; };
+		04A6938515902BDD00D3136F /* green-ipad-wallpaper-x2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "green-ipad-wallpaper-x2.jpg"; sourceTree = "<group>"; };
+		04A6938615902BDD00D3136F /* photo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.JPG; sourceTree = "<group>"; };
+		04A69389159033BC00D3136F /* full_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = full_loading.png; sourceTree = "<group>"; };
+		04A6938A159033BC00D3136F /* full_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_loading@2x.png"; sourceTree = "<group>"; };
+		04A6938D1590409D00D3136F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A6938E1590409D00D3136F /* QuartzCore.framework in Frameworks */,
 				04A693511590233400D3136F /* UIKit.framework in Frameworks */,
 				04A693531590233500D3136F /* Foundation.framework in Frameworks */,
 				04A693551590233500D3136F /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +111,7 @@
 		04A6934F1590233400D3136F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04A6938D1590409D00D3136F /* QuartzCore.framework */,
 				04A693501590233400D3136F /* UIKit.framework */,
 				04A693521590233400D3136F /* Foundation.framework */,
 				04A693541590233500D3136F /* CoreGraphics.framework */,
@@ -124,6 +136,10 @@
 		04A693571590233500D3136F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04A69389159033BC00D3136F /* full_loading.png */,
+				04A6938A159033BC00D3136F /* full_loading@2x.png */,
+				04A6938515902BDD00D3136F /* green-ipad-wallpaper-x2.jpg */,
+				04A6938615902BDD00D3136F /* photo.JPG */,
 				04A693581590233500D3136F /* Image Tester-Info.plist */,
 				04A693591590233500D3136F /* InfoPlist.strings */,
 				04A6935C1590233500D3136F /* main.m */,
@@ -225,6 +241,10 @@
 			files = (
 				04A6935B1590233500D3136F /* InfoPlist.strings in Resources */,
 				04A693641590233500D3136F /* MainStoryboard.storyboard in Resources */,
+				04A6938715902BDD00D3136F /* green-ipad-wallpaper-x2.jpg in Resources */,
+				04A6938815902BDD00D3136F /* photo.JPG in Resources */,
+				04A6938B159033BC00D3136F /* full_loading.png in Resources */,
+				04A6938C159033BC00D3136F /* full_loading@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

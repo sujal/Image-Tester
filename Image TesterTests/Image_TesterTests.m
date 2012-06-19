@@ -3,7 +3,7 @@
 //  Image TesterTests
 //
 //  Created by Sujal Shah on 6/18/12.
-//  Copyright (c) 2012 Forche LLC. All rights reserved.
+//  Copyright (c) 2012 Fanzter, Inc.. All rights reserved.
 //
 
 #import "Image_TesterTests.h"
