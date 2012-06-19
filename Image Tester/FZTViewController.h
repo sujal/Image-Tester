@@ -13,6 +13,8 @@
     NSInteger state;
     CADisplayLink* dispLink_;
     NSDate* buttonTriggeredDate_;
+    NSDate* lastDisplayLinkFireDate_;
+    NSDate* downloadStartedDate_;
 }
 
 
