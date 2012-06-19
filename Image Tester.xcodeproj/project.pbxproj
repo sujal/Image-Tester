@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042DA9CD159055F2005F7DED /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042DA9CC159055F2005F7DED /* dist.plist */; };
 		04A693511590233400D3136F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A693501590233400D3136F /* UIKit.framework */; };
 		04A693531590233500D3136F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A693521590233400D3136F /* Foundation.framework */; };
 		04A693551590233500D3136F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A693541590233500D3136F /* CoreGraphics.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042DA9CC159055F2005F7DED /* dist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dist.plist; sourceTree = "<group>"; };
 		04A6934C1590233400D3136F /* Image Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A693501590233400D3136F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04A693521590233400D3136F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -144,6 +146,7 @@
 				04A693591590233500D3136F /* InfoPlist.strings */,
 				04A6935C1590233500D3136F /* main.m */,
 				04A6935E1590233500D3136F /* Image Tester-Prefix.pch */,
+				042DA9CC159055F2005F7DED /* dist.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				04A6938815902BDD00D3136F /* regular.jpg in Resources */,
 				04A6938B159033BC00D3136F /* full_loading.png in Resources */,
 				04A6938C159033BC00D3136F /* full_loading@2x.png in Resources */,
+				042DA9CD159055F2005F7DED /* dist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +396,7 @@
 		04A693811590233500D3136F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Image Tester/dist.plist";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image Tester/Image Tester-Prefix.pch";
 				INFOPLIST_FILE = "Image Tester/Image Tester-Info.plist";
